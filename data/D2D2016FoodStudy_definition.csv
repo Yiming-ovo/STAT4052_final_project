@@ -1,0 +1,58 @@
+VARIABLE,Definition
+person_id,person_id
+percent_discard,food waste tendency (score of 0 to 100)
+beef,equals 1 if beef; 0 if spinach
+class1,equals 1 if Extemporaneous Consumer; 0 if Planners
+level2,equals 1 if appearance level = 2 (see Fig 1 of paper)
+level3,equals 1 if appearance level = 3 (see Fig 1 of paper)
+bestby,"equals 1 if date type = ""best by"""
+useby,"equals 1 if date type = ""use by"""
+date_days,# days tp expiration
+price,price paid ($/item)
+large,equals 1 if package size = large; 0 if small
+age,"Center of age range categories (18-24, 25-34, 35-44, 45-54, 55-64, 65-74, and 75 years or older)"
+gender,"equals 1 if female; 0 otherwise. NOTE: other responses have been recoded as 0 in the public use dataset, but were included in the analysis as the sample mean of this variable (.3314). Please contact author for the case ids of the recoded responses."
+educ,equals 1 if bachelor's degree or higher
+income,"in $10,000s"
+hhld_size,# people in household
+child_pres,equals 1 if children under 18 years of age in household
+nonwhite,equals 0 if race is white; 1 otherwise
+,
+Items used in the factor analysis and latent class analysis,
+preshop_1,"pre-shopping routines: I have a regular schudule for my shopping trips (1 = strongly disagree, 2 = somewhat disagree, 3 = neither agree or disagree, 4 = somewhat agree, 5 = strongly agree)"
+preshop_2,"pre-shopping routines: I plan my meals in advance before a shopping trip (1 = strongly disagree, 2 = somewhat disagree, 3 = neither agree or disagree, 4 = somewhat agree, 5 = strongly agree)"
+preshop_3,"pre-shopping routines: I make a shopping list for our food purchases (1 = strongly disagree, 2 = somewhat disagree, 3 = neither agree or disagree, 4 = somewhat agree, 5 = strongly agree)"
+preshop_4,"pre-shopping routines: I check our kitchen inventories before our shopping trips (1 = strongly disagree, 2 = somewhat disagree, 3 = neither agree or disagree, 4 = somewhat agree, 5 = strongly agree)"
+instore_5,"purchasing behaviors: I tend to stick to my shopping list (1 = strongly disagree, 2 = somewhat disagree, 3 = neither agree or disagree, 4 = somewhat agree, 5 = strongly agree)"
+instore_6,"purchasing behaviors: I tend to buy products on the spot (1 = strongly disagree, 2 = somewhat disagree, 3 = neither agree or disagree, 4 = somewhat agree, 5 = strongly agree)"
+instore_7,"purchasing behaviors: I tend to buy food items in amounts according to my meal plans (1 = strongly disagree, 2 = somewhat disagree, 3 = neither agree or disagree, 4 = somewhat agree, 5 = strongly agree)"
+tosspre_8,"reasons for throwing away food before meal preparation: I bought too much or we already had item at home (1 = very unlikely, 2 = somewhat unlikely, 3 = neither likely or unlikely, 4 = somewhat likely, 5 = very likely)"
+tosspre_9,"reasons for throwing away food before meal preparation: The packaging was too large and contained more than I needed (1 = very unlikely, 2 = somewhat unlikely, 3 = neither likely or unlikely, 4 = somewhat likely, 5 = very likely)"
+tosspre_10,"reasons for throwing away food before meal preparation: The wrong food item was bought (1 = very unlikely, 2 = somewhat unlikely, 3 = neither likely or unlikely, 4 = somewhat likely, 5 = very likely)"
+tosspre_11,"reasons for throwing away food before meal preparation: It was passed best before/expiration date (1 = very unlikely, 2 = somewhat unlikely, 3 = neither likely or unlikely, 4 = somewhat likely, 5 = very likely)"
+tosspre_12,"reasons for throwing away food before meal preparation: The package was bad/broken (1 = very unlikely, 2 = somewhat unlikely, 3 = neither likely or unlikely, 4 = somewhat likely, 5 = very likely)"
+tosspre_13,"reasons for throwing away food before meal preparation: The food looked ok but seemed no longer safe to eat (1 = very unlikely, 2 = somewhat unlikely, 3 = neither likely or unlikely, 4 = somewhat likely, 5 = very likely)"
+tosspre_14,"reasons for throwing away food before meal preparation: The food had visibly gone bad - rotten, sour, moldy, etc. (1 = very unlikely, 2 = somewhat unlikely, 3 = neither likely or unlikely, 4 = somewhat likely, 5 = very likely)"
+tosspost_15,"reasons for throwing away food after meal preparation: I prepared too much (1 = very unlikely, 2 = somewhat unlikely, 3 = neither likely or unlikely, 4 = somewhat likely, 5 = very likely)"
+tosspost_16,"reasons for throwing away food after meal preparation: The food did not turn out well (1 = very unlikely, 2 = somewhat unlikely, 3 = neither likely or unlikely, 4 = somewhat likely, 5 = very likely)"
+tosspost_17,"reasons for throwing away food after meal preparation: It was not possible to save leftovers (1 = very unlikely, 2 = somewhat unlikely, 3 = neither likely or unlikely, 4 = somewhat likely, 5 = very likely)"
+tosspost_18,"reasons for throwing away food after meal preparation: I did not want to save leftovers (1 = very unlikely, 2 = somewhat unlikely, 3 = neither likely or unlikely, 4 = somewhat likely, 5 = very likely)"
+tosspost_19,"reasons for throwing away food after meal preparation: Saved leftovers had gone bad (1 = very unlikely, 2 = somewhat unlikely, 3 = neither likely or unlikely, 4 = somewhat likely, 5 = very likely)"
+amount_20,"amount of food discarded in a typical week: fresh fruits and vegetables (0 = I do not buy these food products, 1 = hardly any, 2 = less than 10%, 3 = more than 10% but less than 25%, 4 = more than 25% but less than 50%, 5 = over 50%)"
+amount_21,"amount of food discarded in a typical week: fresh poultry/meats/seafood (0 = I do not buy these food products, 1 = hardly any, 2 = less than 10%, 3 = more than 10% but less than 25%, 4 = more than 25% but less than 50%, 5 = over 50%)"
+amount_22,"amount of food discarded in a typical week: dairy and eggs (0 = I do not buy these food products, 1 = hardly any, 2 = less than 10%, 3 = more than 10% but less than 25%, 4 = more than 25% but less than 50%, 5 = over 50%)"
+amount_23,"amount of food discarded in a typical week: fresh baked goods (0 = I do not buy these food products, 1 = hardly any, 2 = less than 10%, 3 = more than 10% but less than 25%, 4 = more than 25% but less than 50%, 5 = over 50%)"
+amount_24,"amount of food discarded in a typical week: ready-to-eat deli foods (0 = I do not buy these food products, 1 = hardly any, 2 = less than 10%, 3 = more than 10% but less than 25%, 4 = more than 25% but less than 50%, 5 = over 50%)"
+amount_25,"amount of food discarded during last 6 months: shelf-stable foods (pasta, cereal, etc.)  (0 = I do not buy these food products, 1 = hardly any, 2 = less than 10%, 3 = more than 10% but less than 25%, 4 = more than 25% but less than 50%, 5 = over 50%)"
+amount_26,"amount of food discarded during last 6 months: frozen foods (0 = I do not buy these food products, 1 = hardly any, 2 = less than 10%, 3 = more than 10% but less than 25%, 4 = more than 25% but less than 50%, 5 = over 50%)"
+amount_27,"amount of food discarded during last 6 months: canned foods (0 = I do not buy these food products, 1 = hardly any, 2 = less than 10%, 3 = more than 10% but less than 25%, 4 = more than 25% but less than 50%, 5 = over 50%)"
+skill_28,"cooking and food management skills: Preparing foods from raw/fresh ingredients (1 = terrible, 2 = poor, 3 = average, 4 = good, 5 = excellent)"
+skill_29,"cooking and food management skills: Cooking with leftovers/random ingredients to make a meal (1 = terrible, 2 = poor, 3 = average, 4 = good, 5 = excellent)"
+skill_30,"cooking and food management skills: Avoiding food getting burnt/ruined during cooking/preparation (1 = terrible, 2 = poor, 3 = average, 4 = good, 5 = excellent)"
+skill_31,"cooking and food management skills: Eating the foods that need to be eaten first (1 = terrible, 2 = poor, 3 = average, 4 = good, 5 = excellent)"
+skill_32,"cooking and food management skills: Knowing how to store different types of food products purchased (1 = terrible, 2 = poor, 3 = average, 4 = good, 5 = excellent)"
+skill_33,"cooking and food management skills: Correctly resealing/repackaging opened products so they stay fresh (1 = terrible, 2 = poor, 3 = average, 4 = good, 5 = excellent)"
+family_34,"providing for family: I would prefer to buy more food than to run out  (1 = strongly disagree, 2 = somewhat disagree, 3 = neither agree or disagree, 4 = somewhat agree, 5 = strongly agree)"
+family_35,"providing for family: I would prefer to prepare more food than to run out  (1 = strongly disagree, 2 = somewhat disagree, 3 = neither agree or disagree, 4 = somewhat agree, 5 = strongly agree)"
+compost_36,"composting habits (1 = never, 2 = sometimes, 3 = about half of the time, 4 = most of the time, 5 = always)"
+recycle_37,"recycling habits (1 = never, 2 = sometimes, 3 = about half of the time, 4 = most of the time, 5 = always)"
